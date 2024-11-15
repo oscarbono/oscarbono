@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soy Óscar Bono</title>
+    <link href="output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <header class="fixed top-0 left-0 w-full bg-gray-100 p-4 shadow-md z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-lg font-light italic tracking-widest text-gray-500">Óscar Bono</h1>
+            <nav>
+                <a href="#media" class="ml-6 text-sm text-gray-600 hover:text-black">CONTENIDO</a>
+                <a href="#bookmarks" class="ml-6 text-sm text-gray-600 hover:text-black">MIS SELECCIONES</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex flex-col justify-center items-center min-h-screen pt-16">
+        <!-- Sección Intro -->
+        <section class="intro-container grid grid-cols-1 md:grid-cols-2 gap-16 mb-12 px-4">
+            <div class="flex-1">
+                <h2 class="text-5xl font-bold leading-snug">
+                    Ey 🕶️ Soy apasionado de la tecnología y trabajo en la intersección de
+                    <i class="fas fa-laptop-code" style="color: #3498DB;"></i> <span style="color: #3498DB;">código</span>,
+                    <i class="fas fa-paint-brush" style="color: #E67E22;"></i> <span style="color: #E67E22;">diseño</span>,
+                    y <i class="fas fa-chart-line" style="color: #2ECC71;"></i> <span style="color: #2ECC71;">negocios</span>.
+                </h2>
+            </div>
+            <div class="flex-1 mt-64 md:mt-72">
+                <p class="text-gray-600 text-lg leading-relaxed font-source-code-pro-light">
+                    Este es un espacio donde comparto mis intereses, sin algoritmos ni reglas, sólo un vistazo a lo que sucede en el internet de las cosas.
+                </p>
+                <p class="text-gray-600 text-lg leading-relaxed font-source-code-pro-light mt-4">
+                    Espero que disfrutes explorando mi sala de estar digital tanto como yo disfruto alimentándola.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección "Proyectos Paralelos" -->
+        <section id="proyectos-paralelos" class="bg-white w-full py-20">
+            <div class="container mx-auto max-w-screen-lg px-4 flex items-start">
+                <div class="flex-shrink-0 max-w-xs">
+                    <h3 class="text-2xl font-bold">Proyectos Paralelos</h3>
+                    <p class="mt-4 text-gray-700">Proyectos que nacen de ideas, algunas se quedan en el camino, otras se vuelven realidad:</p>
+                </div>
+
+                <!-- Carrusel de tarjetas de proyecto -->
+                <div class="carousel-container mt-8 ml-10 flex-1">
+                    <div class="carousel flex space-x-4">
+                        <div class="card bg-blue-500 text-white p-6 rounded-lg shadow-lg">
+                            <h4 class="font-bold">5-SPOTS</h4>
+                            <p class="mt-2">Mini blog | React</p>
+                        </div>
+                        <div class="card bg-green-500 text-white p-6 rounded-lg shadow-lg">
+                            <h4 class="font-bold">NOMBRE</h4>
+                            <p class="mt-2">Tag1 | Tag2</p>
+                        </div>
+                        <div class="card bg-purple-500 text-white p-6 rounded-lg shadow-lg">
+                            <h4 class="font-bold">NOMBRE</h4>
+                            <p class="mt-2">Tag1 | Tag2</p>
+                        </div>
+                        <div class="card bg-orange-500 text-white p-6 rounded-lg shadow-lg">
+                            <h4 class="font-bold">NOMBRE</h4>
+                            <p class="mt-2">Tag1 | Tag2</p>
+                        </div>
+                    </div>
+                    <div class="arrow-container mt-4">
+                        <button class="arrow">&#8592;</button>
+                        <button class="arrow">&#8594;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería de fotos -->
+        <section id="fotografia" class="bg-white w-full py-20">
+            <div class="container mx-auto max-w-screen-lg px-4 flex items-start">
+                <div class="flex-shrink-0">
+                    <h3 class="text-2xl font-bold">Fotografía</h3>
+                    <p class="mt-4 text-gray-700 max-w-xs">
+                        Disfruto capturando momentos con una cámara. Aquí las más recientes:
+                    </p>
+                </div>
+                <div class="carousel-container mt-8 ml-10 flex-1">
+                    <div class="carousel flex space-x-4">
+                        <div class="relative w-60 h-60">
+                            <img src="imagenes/SF-1.jpg" alt="Foto 1" class="w-full h-full rounded-lg shadow-md object-cover">
+                        </div>
+                        <div class="relative w-60 h-60">
+                            <img src="imagenes/SF-10.jpg" alt="Foto 2" class="w-full h-full rounded-lg shadow-md object-cover">
+                        </div>
+                        <div class="relative w-60 h-60">
+                            <img src="imagenes/houg1.jpg" alt="Foto 3" class="w-full h-full rounded-lg shadow-md object-cover">
+                        </div>
+                        <div class="relative w-60 h-60">
+                            <img src="imagenes/lag1.jpg" alt="Foto 4" class="w-full h-full rounded-lg shadow-md object-cover">
+                        </div>
+                    </div>
+                    <div class="arrow-container mt-4">
+                        <button class="arrow">&#8592;</button>
+                        <button class="arrow">&#8594;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="marcadores">
+            <div class="header">
+                <h2>Artículos</h2>
+                <p class="description">Estos son artículos, sitios web y videos que he marcado como favoritos, interesantes, útiles o simplemente interesanres de consumir.</p>
+                <a href="#">Más marcadores →</a>
+            </div>
+            <div class="container">
+                <ul>
+                    <li class="marcadores-item">
+                        <span class="articulo"></span>
+                        <div class="font-medium">Diseño web japonés: raro, pero funciona. Esta es la razón #diseño #internet</div>
+                        <div class="text-gray-400">11-10-2024</div>
+                        <div class="preview" style="background-image: url('imagen1.jpg');"></div>
+                    </li>
+                    <li class="marcadores-item">
+                        <span class="sitio-web"></span>
+                        <div class="font-medium">La desaparición de un dominio de Internet #Internet</div>
+                        <div class="text-gray-400">10-10-2024</div>
+                        <div class="preview" style="background-image: url('imagen2.jpg');"></div>
+                    </li>
+
+                    <li class="marcadores-item">
+                        <span class="sitio-web"></span>
+                        <div class="font-medium">La desaparición de un dominio de Internet #Internet</div>
+                        <div class="text-gray-400">10-10-2024</div>
+                        <div class="preview" style="background-image: url('imagen2.jpg');"></div>
+                    </li>
+
+                    <li class="marcadores-item">
+                        <span class="sitio-web"></span>
+                        <div class="font-medium">La desaparición de un dominio de Internet #Internet</div>
+                        <div class="text-gray-400">10-10-2024</div>
+                        <div class="preview" style="background-image: url('imagen2.jpg');"></div>
+                    </li>
+
+                    <li class="marcadores-item">
+                        <span class="sitio-web"></span>
+                        <div class="font-medium">La desaparición de un dominio de Internet #Internet</div>
+                        <div class="text-gray-400">10-10-2024</div>
+                        <div class="preview" style="background-image: url('imagen2.jpg');"></div>
+                    </li>
+
+                    <li class="marcadores-item">
+                        <span class="sitio-web"></span>
+                        <div class="font-medium">La desaparición de un dominio de Internet #Internet</div>
+                        <div class="text-gray-400">10-10-2024</div>
+                        <div class="preview" style="background-image: url('imagen2.jpg');"></div>
+                    </li>
+
+                    <li class="marcadores-item">
+                        <span class="sitio-web"></span>
+                        <div class="font-medium">La desaparición de un dominio de Internet #Internet</div>
+                        <div class="text-gray-400">10-10-2024</div>
+                        <div class="preview" style="background-image: url('imagen2.jpg');"></div>
+                    </li>
+
+                    <li class="marcadores-item">
+                        <span class="sitio-web"></span>
+                        <div class="font-medium">La desaparición de un dominio de Internet #Internet</div>
+                        <div class="text-gray-400">10-10-2024</div>
+                        <div class="preview" style="background-image: url('imagen2.jpg');"></div>
+                    </li>
+
+                    <li class="marcadores-item">
+                        <span class="sitio-web"></span>
+                        <div class="font-medium">La desaparición de un dominio de Internet #Internet</div>
+                        <div class="text-gray-400">10-10-2024</div>
+                        <div class="preview" style="background-image: url('imagen2.jpg');"></div>
+                    </li>
+
+                    <li class="marcadores-item">
+                        <span class="sitio-web"></span>
+                        <div class="font-medium">La desaparición de un dominio de Internet #Internet</div>
+                        <div class="text-gray-400">10-10-2024</div>
+                        <div class="preview" style="background-image: url('imagen2.jpg');"></div>
+                    </li>
+                    <!-- Añadir más artículos según sea necesario -->
+                </ul>
+            </div>
+        </section>
+        
+        
+        
+        
+          
+          
+          
+    </main>
+</body>
+</html>
